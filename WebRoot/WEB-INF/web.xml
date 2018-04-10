@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Scholar</display-name>
+  <servlet>
+    <servlet-name>UserSer</servlet-name>
+    <servlet-class>com.etc.ser.UserSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReleaseHomeworkSer</servlet-name>
+    <servlet-class>com.etc.ser.ReleaseHomeworkSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LessonStudentListSer</servlet-name>
+    <servlet-class>com.etc.ser.LessonStudentListSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PrivateMessageSer</servlet-name>
+    <servlet-class>com.etc.ser.PrivateMessageSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>com.etc.ser.DownLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListFileServlet</servlet-name>
+    <servlet-class>com.etc.ser.ListFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <servlet-class>com.etc.ser.UploadHandleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LessonSer</servlet-name>
+    <servlet-class>com.etc.ser.LessonSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelfSer</servlet-name>
+    <servlet-class>com.etc.ser.SelfSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LessonUpdateSer</servlet-name>
+    <servlet-class>com.etc.ser.LessonUpdateSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FocusSer</servlet-name>
+    <servlet-class>com.etc.ser.FocusSer</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserSer</servlet-name>
+    <url-pattern>/UserSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReleaseHomeworkSer</servlet-name>
+    <url-pattern>/ReleaseHomeworkSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LessonStudentListSer</servlet-name>
+    <url-pattern>/LessonStudentListSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrivateMessageSer</servlet-name>
+    <url-pattern>/PrivateMessageSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFileServlet</servlet-name>
+    <url-pattern>/ListFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadHandleServlet</servlet-name>
+    <url-pattern>/UploadHandleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LessonSer</servlet-name>
+    <url-pattern>/LessonSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelfSer</servlet-name>
+    <url-pattern>/SelfSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LessonUpdateSer</servlet-name>
+    <url-pattern>/LessonUpdateSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FocusSer</servlet-name>
+    <url-pattern>/FocusSer</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

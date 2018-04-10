@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/js/main.js,WebRoot/js/jquery.min.js,WebRoot/js/util.js,WebRoot/js/jquery-3.2.1.js,WebRoot/js/jquery-1.11.1.min.js,WebRoot/js/skel.min.js
+validator.Revalidate=true
+validator.Unchecked=
